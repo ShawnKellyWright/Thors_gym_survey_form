@@ -23,6 +23,5 @@ body {
 
 /* following is form styling */
 .form-color {
-    background-color: background-color: rgba(232, 214, 24, .5);
-    /* This is a test */
+    background-color: rgba(232, 214, 24, .5);
 }
