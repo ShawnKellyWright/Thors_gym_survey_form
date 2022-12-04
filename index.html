@@ -1,0 +1,77 @@
+<!doctype html>
+<html class="no-js" lang="">
+
+<head>
+    <meta charset="utf-8">
+    <title>Thor's Gym - Survey Form</title>
+    <meta name="description" content="My first freeCodeCamp certification project - a Survey Form - Thor's gym">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="apple-touch-icon" href="icon.png">
+    <link rel="manifest" href="site.webmanifest"> <!-- TODO: Update web app manifest file -->
+    <link rel="icon" href="/favicon.ico"> <!-- TODO: Add favicon.ico file to project -->
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <!-- Content -->
+    <div class="container">
+        <h1 id="title">Thor's Gym</h1>
+        <p id="description">This is the gym of all gym's worthy of the god's!</p>
+        <form id="survey-form" action="">
+            <div class="form-color">
+                <fieldset for="">
+                    <label for="name" id="name-label">Name: <input id="name" type="text" name="name"
+                            placeholder="Thor Odinson" required /></label>
+                    <label for="email" id="email-label">Email: <input id="email" type="email" name="email-label"
+                            placeholder="mjolnir@gmail.com" required /></label>
+                    <label for="number" id="number-label">Age: <input id="number" type="number" name="number" min="18"
+                            max="105" placeholder="Minimum 18 maximum 105" required />
+                </fieldset>
+                <fieldset>
+                    <label for"gym-use">What do you want to use gym for? <select id="dropdown" name="dropdown" multiple
+                            required>
+                            <option value="Bodybuilding">Bodybuilding</option>
+                            <option value="Powerlifting">Powerlifting</option>
+                            <option value="General weightlifting">General weightlifting</option>
+                            <option value="Cardio">Cardio</option>
+                            <option value="Fitness class">Fitness class</option>
+                        </select>
+                </fieldset>
+                <fieldset>
+                    <p>Does this Gym look awesome?</p>
+                    <label for="yes">Yes <input class="inline" type="radio" id="yes" name="best-gym" value="1" />
+                    </label>
+                    <label for="no">No <input class="inline" type="radio" name="best-gym" value="2" />
+                    </label>
+                </fieldset>
+                <fieldset>
+                    <label for="" id=""></label>
+                </fieldset>
+                <fieldset>
+                    <label for="" name="">
+                        <input type="checkbox" id="" name="" value="3" />
+                    </label>
+                    <label for="" name="">
+                        <input type="checkbox" id="" name="" value="4" />
+                    </label>
+                </fieldset>
+            </div>
+            <textarea id="comments" class="input-textarea" name="comment"
+                placeholder="Enter your comment here..."></textarea>
+            <input type="submit" id="submit" value="Submit" />
+        </form>
+
+        <!-- following is the footer section -->
+        <footer>
+            <p>&COPY; copright 2022 shawnCodeWright</p>
+        </footer>
+    </div>
+
+    <!-- following is javascript section - not using though -->
+    <script src="js/vendor/modernizr-{{MODERNIZR_VERSION}}.min.js"></script> <!-- TODO: Add Modernizr js -->
+    <script src="js/app.js"></script> <!-- TODO: Update app entry point -->
+    <!-- Google Analytics: change UA-XXXXX-Y to be your site's ID. -->
+    <script src="https://www.google-analytics.com/analytics.js" async></script>
+</body>
+
+</html>

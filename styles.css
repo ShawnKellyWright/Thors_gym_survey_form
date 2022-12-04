@@ -1,0 +1,28 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    /* background-image: url(images/thor_3_survey_form.png); */
+    background-image: url(images/thor_gym_background_5.png);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-color: rgb(7, 7, 107);
+    color: white;
+    text-shadow: 0 0 5px #de1a24, 0 0 5px #de1a24;
+    /* color: #de1a24; */
+    text-align: center;
+    font-size: 22px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+/* following is form styling */
+.form-color {
+    background-color: background-color: rgba(232, 214, 24, .5);
+    /* This is a test */
+}
