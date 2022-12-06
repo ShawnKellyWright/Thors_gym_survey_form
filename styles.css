@@ -4,14 +4,14 @@
 
 body {
     /* background-image: url(images/thor_3_survey_form.png); */
-    background-image: url(images/thor_gym_background_5.png);
+    background-image: url(images/Thors_gym_plate_mjolnir_frame_old_school_thor_with_dumbbell_3.png);
     background-position: center center;
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
-    background-color: rgb(7, 7, 107);
+    background-color: #fff;
     color: white;
-    text-shadow: 0 0 5px #de1a24, 0 0 5px #de1a24;
+    text-shadow: 0 0 5px #de1a24, 0 0 5px #de1a24, 0 0 5px #000;
     /* color: #de1a24; */
     text-align: center;
     font-size: 22px;
